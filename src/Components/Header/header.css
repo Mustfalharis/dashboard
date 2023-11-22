@@ -1,0 +1,30 @@
+header {
+    height: 60px;
+    border-bottom: 1px solid #eee;
+}
+header .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .content h1 {
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word
+}
+header .content .admin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .content .admin p {
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-right: 10px;
+}
